@@ -1,0 +1,2790 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-13T23:21:38</date>
+  <millis>1565718698886</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/driversuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">driversuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/driversuite</property>
+</record>
+<record>
+  <date>2019-08-13T23:21:38</date>
+  <millis>1565718698909</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = sumittulsyan - 192.168.1.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">sumittulsyan - 192.168.1.4</property>
+</record>
+<record>
+  <date>2019-08-13T23:21:38</date>
+  <millis>1565718698911</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-08-13T23:21:38</date>
+  <millis>1565718698912</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.4</property>
+</record>
+<record>
+  <date>2019-08-13T23:21:38</date>
+  <millis>1565718698916</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.0.1</property>
+</record>
+<record>
+  <date>2019-08-13T23:21:39</date>
+  <millis>1565718699402</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/driver</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/driver</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/driver</property>
+  <property name="source">\\Users\\sumittulsyan\\Katalon Studio\\taxi\\Test Cases\\driver.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-13T23:21:40</date>
+  <millis>1565718700027</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/Users/sumittulsyan/Downloads/app-release.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-13T23:21:42</date>
+  <millis>1565718702807</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 60,968</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726810</millis>
+  <sequence>11</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726814</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726832</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726833</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 7.0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726834</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726835</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726837</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726841</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726875</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/sumittulsyan/Downloads/app-release.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726877</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/Users/sumittulsyan/Downloads/app-release.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:06</date>
+  <millis>1565718726878</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;driver/android.widget.TextView0 - Register (2)\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:07</date>
+  <millis>1565718727282</millis>
+  <sequence>25</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:11</date>
+  <millis>1565718731105</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/driver/android.widget.TextView0 - Register (2)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:11</date>
+  <millis>1565718731106</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;driver/android.widget.TextView0 - Register (2)\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:11</date>
+  <millis>1565718731106</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - First Name (1)\&amp;quot;), \&amp;quot;fdgs\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:11</date>
+  <millis>1565718731165</millis>
+  <sequence>32</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:12</date>
+  <millis>1565718732440</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;fdgs&amp;apos; has been set to element &amp;apos;Object Repository/driver/android.widget.EditText0 - First Name (1)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:12</date>
+  <millis>1565718732441</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - First Name (1)\&amp;quot;), \&amp;quot;fdgs\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:12</date>
+  <millis>1565718732442</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Last Name\&amp;quot;), \&amp;quot;setdrfgjhk\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:12</date>
+  <millis>1565718732540</millis>
+  <sequence>39</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:14</date>
+  <millis>1565718734087</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;setdrfgjhk&amp;apos; has been set to element &amp;apos;Object Repository/driver/android.widget.EditText0 - Last Name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:14</date>
+  <millis>1565718734087</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Last Name\&amp;quot;), \&amp;quot;setdrfgjhk\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:14</date>
+  <millis>1565718734088</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Email\&amp;quot;), \&amp;quot;hkgyufi@hjdfj.com\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:14</date>
+  <millis>1565718734152</millis>
+  <sequence>46</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:15</date>
+  <millis>1565718735760</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;hkgyufi@hjdfj.com&amp;apos; has been set to element &amp;apos;Object Repository/driver/android.widget.EditText0 - Email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:15</date>
+  <millis>1565718735761</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Email\&amp;quot;), \&amp;quot;hkgyufi@hjdfj.com\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:15</date>
+  <millis>1565718735761</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Mobile Number (1)\&amp;quot;), \&amp;quot;9812981298\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:15</date>
+  <millis>1565718735817</millis>
+  <sequence>53</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:17</date>
+  <millis>1565718737405</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;9812981298&amp;apos; has been set to element &amp;apos;Object Repository/driver/android.widget.EditText0 - Mobile Number (1)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:17</date>
+  <millis>1565718737406</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Mobile Number (1)\&amp;quot;), \&amp;quot;9812981298\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:17</date>
+  <millis>1565718737406</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Password\&amp;quot;), \&amp;quot;123456\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:17</date>
+  <millis>1565718737457</millis>
+  <sequence>60</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:19</date>
+  <millis>1565718739043</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;123456&amp;apos; has been set to element &amp;apos;Object Repository/driver/android.widget.EditText0 - Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:19</date>
+  <millis>1565718739044</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Password\&amp;quot;), \&amp;quot;123456\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:19</date>
+  <millis>1565718739044</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Confirm password\&amp;quot;), \&amp;quot;123456\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:19</date>
+  <millis>1565718739085</millis>
+  <sequence>67</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:20</date>
+  <millis>1565718740697</millis>
+  <sequence>68</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;123456&amp;apos; has been set to element &amp;apos;Object Repository/driver/android.widget.EditText0 - Confirm password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:20</date>
+  <millis>1565718740698</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;driver/android.widget.EditText0 - Confirm password\&amp;quot;), \&amp;quot;123456\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:20</date>
+  <millis>1565718740699</millis>
+  <sequence>70</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;driver/android.widget.TextView0 - Register (3)\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-13T23:22:20</date>
+  <millis>1565718740827</millis>
+  <sequence>74</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:21</date>
+  <millis>1565718741626</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/driver/android.widget.TextView0 - Register (3)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:21</date>
+  <millis>1565718741627</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;driver/android.widget.TextView0 - Register (3)\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:21</date>
+  <millis>1565718741627</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:21</date>
+  <millis>1565718741628</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/driver</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-13T23:22:25</date>
+  <millis>1565718745149</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/driversuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-13T23:42:30</date>
+  <millis>1565719950109</millis>
+  <sequence>2755</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1638</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:42:30</date>
+  <millis>1565719950113</millis>
+  <sequence>2756</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1638</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-13T23:42:30</date>
+  <millis>1565719950123</millis>
+  <sequence>2757</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1638</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-08-13T23:42:30</date>
+  <millis>1565719950123</millis>
+  <sequence>2758</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1638</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-13T23:42:30</date>
+  <millis>1565719950123</millis>
+  <sequence>2759</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1638</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-08-13T23:42:30</date>
+  <millis>1565719950123</millis>
+  <sequence>2760</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1638</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-08-13T23:42:30</date>
+  <millis>1565719950124</millis>
+  <sequence>2761</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1638</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-13T23:42:30</date>
+  <millis>1565719950124</millis>
+  <sequence>2762</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1638</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:50:11</date>
+  <millis>1565720411355</millis>
+  <sequence>2776</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1752</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:50:11</date>
+  <millis>1565720411356</millis>
+  <sequence>2777</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1752</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-13T23:50:11</date>
+  <millis>1565720411367</millis>
+  <sequence>2778</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1752</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-08-13T23:50:11</date>
+  <millis>1565720411368</millis>
+  <sequence>2779</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1752</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-13T23:50:11</date>
+  <millis>1565720411368</millis>
+  <sequence>2780</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1752</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-08-13T23:50:11</date>
+  <millis>1565720411368</millis>
+  <sequence>2781</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1752</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-08-13T23:50:11</date>
+  <millis>1565720411368</millis>
+  <sequence>2782</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1752</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-13T23:50:11</date>
+  <millis>1565720411368</millis>
+  <sequence>2783</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1752</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:57:01</date>
+  <millis>1565720821968</millis>
+  <sequence>2789</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1823</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:57:01</date>
+  <millis>1565720821969</millis>
+  <sequence>2790</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1823</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-13T23:57:01</date>
+  <millis>1565720821978</millis>
+  <sequence>2791</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1823</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-08-13T23:57:01</date>
+  <millis>1565720821979</millis>
+  <sequence>2792</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1823</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-13T23:57:01</date>
+  <millis>1565720821979</millis>
+  <sequence>2793</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1823</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-08-13T23:57:01</date>
+  <millis>1565720821979</millis>
+  <sequence>2794</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1823</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-08-13T23:57:01</date>
+  <millis>1565720821979</millis>
+  <sequence>2795</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1823</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-13T23:57:01</date>
+  <millis>1565720821979</millis>
+  <sequence>2796</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1823</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:59:35</date>
+  <millis>1565720975389</millis>
+  <sequence>2800</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1874</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-13T23:59:35</date>
+  <millis>1565720975390</millis>
+  <sequence>2801</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1874</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-13T23:59:35</date>
+  <millis>1565720975399</millis>
+  <sequence>2802</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1874</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-08-13T23:59:35</date>
+  <millis>1565720975399</millis>
+  <sequence>2803</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1874</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-13T23:59:35</date>
+  <millis>1565720975399</millis>
+  <sequence>2804</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1874</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-08-13T23:59:35</date>
+  <millis>1565720975399</millis>
+  <sequence>2805</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1874</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-08-13T23:59:35</date>
+  <millis>1565720975399</millis>
+  <sequence>2806</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1874</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-13T23:59:35</date>
+  <millis>1565720975399</millis>
+  <sequence>2807</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1874</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:29</date>
+  <millis>1565721989680</millis>
+  <sequence>4058</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2162</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:29</date>
+  <millis>1565721989680</millis>
+  <sequence>4059</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2162</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:29</date>
+  <millis>1565721989680</millis>
+  <sequence>4060</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2162</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:29</date>
+  <millis>1565721989680</millis>
+  <sequence>4061</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2162</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:29</date>
+  <millis>1565721989681</millis>
+  <sequence>4062</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2162</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:29</date>
+  <millis>1565721989681</millis>
+  <sequence>4063</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2162</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:47</date>
+  <millis>1565722007978</millis>
+  <sequence>4069</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2175</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:47</date>
+  <millis>1565722007984</millis>
+  <sequence>4070</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2175</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:47</date>
+  <millis>1565722007984</millis>
+  <sequence>4071</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2175</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:47</date>
+  <millis>1565722007984</millis>
+  <sequence>4072</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2175</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:47</date>
+  <millis>1565722007984</millis>
+  <sequence>4073</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2175</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:16:47</date>
+  <millis>1565722007985</millis>
+  <sequence>4074</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2175</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:04</date>
+  <millis>1565722024792</millis>
+  <sequence>4080</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2188</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:04</date>
+  <millis>1565722024793</millis>
+  <sequence>4081</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2188</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:04</date>
+  <millis>1565722024793</millis>
+  <sequence>4082</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2188</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:04</date>
+  <millis>1565722024793</millis>
+  <sequence>4083</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2188</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:04</date>
+  <millis>1565722024794</millis>
+  <sequence>4084</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2188</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:04</date>
+  <millis>1565722024794</millis>
+  <sequence>4085</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2188</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:42</date>
+  <millis>1565722062367</millis>
+  <sequence>4091</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2203</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:42</date>
+  <millis>1565722062373</millis>
+  <sequence>4092</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2203</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:42</date>
+  <millis>1565722062373</millis>
+  <sequence>4093</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2203</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:42</date>
+  <millis>1565722062374</millis>
+  <sequence>4094</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2203</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:42</date>
+  <millis>1565722062374</millis>
+  <sequence>4095</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2203</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:17:42</date>
+  <millis>1565722062374</millis>
+  <sequence>4096</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2203</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:18</date>
+  <millis>1565722098892</millis>
+  <sequence>4102</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:18</date>
+  <millis>1565722098898</millis>
+  <sequence>4103</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:18</date>
+  <millis>1565722098898</millis>
+  <sequence>4104</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:18</date>
+  <millis>1565722098898</millis>
+  <sequence>4105</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:18</date>
+  <millis>1565722098899</millis>
+  <sequence>4106</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:18</date>
+  <millis>1565722098899</millis>
+  <sequence>4107</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:30</date>
+  <millis>1565722110500</millis>
+  <sequence>4113</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:30</date>
+  <millis>1565722110500</millis>
+  <sequence>4114</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:30</date>
+  <millis>1565722110500</millis>
+  <sequence>4115</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:30</date>
+  <millis>1565722110500</millis>
+  <sequence>4116</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:30</date>
+  <millis>1565722110501</millis>
+  <sequence>4117</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:30</date>
+  <millis>1565722110501</millis>
+  <sequence>4118</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:50</date>
+  <millis>1565722130538</millis>
+  <sequence>4124</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2244</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:50</date>
+  <millis>1565722130538</millis>
+  <sequence>4125</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2244</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:50</date>
+  <millis>1565722130538</millis>
+  <sequence>4126</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2244</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:50</date>
+  <millis>1565722130538</millis>
+  <sequence>4127</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2244</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:50</date>
+  <millis>1565722130539</millis>
+  <sequence>4128</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2244</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:18:50</date>
+  <millis>1565722130539</millis>
+  <sequence>4129</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2244</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:20:24</date>
+  <millis>1565722224302</millis>
+  <sequence>4135</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2259</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:20:24</date>
+  <millis>1565722224303</millis>
+  <sequence>4136</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2259</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:20:24</date>
+  <millis>1565722224303</millis>
+  <sequence>4137</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2259</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:20:24</date>
+  <millis>1565722224303</millis>
+  <sequence>4138</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2259</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:20:24</date>
+  <millis>1565722224303</millis>
+  <sequence>4139</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2259</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:20:24</date>
+  <millis>1565722224303</millis>
+  <sequence>4140</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2259</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:21:31</date>
+  <millis>1565722291305</millis>
+  <sequence>4147</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2273</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:21:31</date>
+  <millis>1565722291305</millis>
+  <sequence>4148</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2273</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-14T00:21:31</date>
+  <millis>1565722291314</millis>
+  <sequence>4149</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2273</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:21:31</date>
+  <millis>1565722291314</millis>
+  <sequence>4150</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2273</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:21:31</date>
+  <millis>1565722291314</millis>
+  <sequence>4151</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2273</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:21:31</date>
+  <millis>1565722291314</millis>
+  <sequence>4152</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2273</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:21:31</date>
+  <millis>1565722291314</millis>
+  <sequence>4153</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2273</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:21:31</date>
+  <millis>1565722291314</millis>
+  <sequence>4154</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2273</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:26:13</date>
+  <millis>1565722573873</millis>
+  <sequence>4159</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2319</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:26:13</date>
+  <millis>1565722573873</millis>
+  <sequence>4160</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2319</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:26:13</date>
+  <millis>1565722573873</millis>
+  <sequence>4161</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2319</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:26:13</date>
+  <millis>1565722573873</millis>
+  <sequence>4162</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2319</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:26:13</date>
+  <millis>1565722573873</millis>
+  <sequence>4163</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2319</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:26:13</date>
+  <millis>1565722573873</millis>
+  <sequence>4164</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2319</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:03</date>
+  <millis>1565722623408</millis>
+  <sequence>4170</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2332</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:03</date>
+  <millis>1565722623408</millis>
+  <sequence>4171</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2332</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:03</date>
+  <millis>1565722623408</millis>
+  <sequence>4172</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2332</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:03</date>
+  <millis>1565722623408</millis>
+  <sequence>4173</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2332</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:03</date>
+  <millis>1565722623408</millis>
+  <sequence>4174</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2332</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:03</date>
+  <millis>1565722623408</millis>
+  <sequence>4175</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2332</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:34</date>
+  <millis>1565722654543</millis>
+  <sequence>4181</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2345</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:34</date>
+  <millis>1565722654543</millis>
+  <sequence>4182</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2345</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:34</date>
+  <millis>1565722654543</millis>
+  <sequence>4183</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2345</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:34</date>
+  <millis>1565722654543</millis>
+  <sequence>4184</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2345</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:34</date>
+  <millis>1565722654543</millis>
+  <sequence>4185</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2345</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:27:34</date>
+  <millis>1565722654543</millis>
+  <sequence>4186</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2345</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:28:47</date>
+  <millis>1565722727057</millis>
+  <sequence>4193</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2360</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:28:47</date>
+  <millis>1565722727059</millis>
+  <sequence>4194</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2360</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-14T00:28:47</date>
+  <millis>1565722727066</millis>
+  <sequence>4195</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2360</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:28:47</date>
+  <millis>1565722727066</millis>
+  <sequence>4196</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2360</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:28:47</date>
+  <millis>1565722727066</millis>
+  <sequence>4197</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2360</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:28:47</date>
+  <millis>1565722727066</millis>
+  <sequence>4198</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2360</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:28:47</date>
+  <millis>1565722727066</millis>
+  <sequence>4199</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2360</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:28:47</date>
+  <millis>1565722727066</millis>
+  <sequence>4200</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2360</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:32:36</date>
+  <millis>1565722956188</millis>
+  <sequence>4212</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2411</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:32:36</date>
+  <millis>1565722956189</millis>
+  <sequence>4213</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2411</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:32:36</date>
+  <millis>1565722956189</millis>
+  <sequence>4214</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2411</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:32:36</date>
+  <millis>1565722956189</millis>
+  <sequence>4215</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2411</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:32:36</date>
+  <millis>1565722956189</millis>
+  <sequence>4216</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2411</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:32:36</date>
+  <millis>1565722956189</millis>
+  <sequence>4217</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2411</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:33:01</date>
+  <millis>1565722981911</millis>
+  <sequence>4224</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2424</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:33:01</date>
+  <millis>1565722981913</millis>
+  <sequence>4225</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2424</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-14T00:33:01</date>
+  <millis>1565722981920</millis>
+  <sequence>4226</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2424</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:33:01</date>
+  <millis>1565722981920</millis>
+  <sequence>4227</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2424</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:33:01</date>
+  <millis>1565722981920</millis>
+  <sequence>4228</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2424</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:33:01</date>
+  <millis>1565722981920</millis>
+  <sequence>4229</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2424</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:33:01</date>
+  <millis>1565722981920</millis>
+  <sequence>4230</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2424</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:33:01</date>
+  <millis>1565722981921</millis>
+  <sequence>4231</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2424</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:38:11</date>
+  <millis>1565723291403</millis>
+  <sequence>4303</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2534</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:38:11</date>
+  <millis>1565723291403</millis>
+  <sequence>4304</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2534</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-14T00:38:11</date>
+  <millis>1565723291413</millis>
+  <sequence>4305</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2534</thread>
+  <message>deviceId = ffacc61e0004</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">ffacc61e0004</property>
+</record>
+<record>
+  <date>2019-08-14T00:38:11</date>
+  <millis>1565723291414</millis>
+  <sequence>4306</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2534</thread>
+  <message>deviceName = Xiaomi Redmi Note 4 (Android 7.0)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 4 (Android 7.0)</property>
+</record>
+<record>
+  <date>2019-08-14T00:38:11</date>
+  <millis>1565723291415</millis>
+  <sequence>4307</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2534</thread>
+  <message>deviceModel = Redmi Note 4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 4</property>
+</record>
+<record>
+  <date>2019-08-14T00:38:11</date>
+  <millis>1565723291415</millis>
+  <sequence>4308</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2534</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:38:11</date>
+  <millis>1565723291415</millis>
+  <sequence>4309</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2534</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:38:11</date>
+  <millis>1565723291415</millis>
+  <sequence>4310</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2534</thread>
+  <message>deviceOSVersion = 7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2019-08-14T00:56:43</date>
+  <millis>1565724403650</millis>
+  <sequence>4465</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2799</thread>
+  <message>deviceId = 2919064c0504</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">2919064c0504</property>
+</record>
+<record>
+  <date>2019-08-14T00:56:43</date>
+  <millis>1565724403656</millis>
+  <sequence>4466</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2799</thread>
+  <message>deviceName = Xiaomi Mi A1 (Android 9)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Mi A1 (Android 9)</property>
+</record>
+<record>
+  <date>2019-08-14T00:56:43</date>
+  <millis>1565724403656</millis>
+  <sequence>4467</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2799</thread>
+  <message>deviceModel = Mi A1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Mi A1</property>
+</record>
+<record>
+  <date>2019-08-14T00:56:43</date>
+  <millis>1565724403657</millis>
+  <sequence>4468</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2799</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:56:43</date>
+  <millis>1565724403657</millis>
+  <sequence>4469</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2799</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:56:43</date>
+  <millis>1565724403657</millis>
+  <sequence>4470</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2799</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:20</date>
+  <millis>1565724440193</millis>
+  <sequence>4476</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2812</thread>
+  <message>deviceId = 2919064c0504</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">2919064c0504</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:20</date>
+  <millis>1565724440193</millis>
+  <sequence>4477</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2812</thread>
+  <message>deviceName = Xiaomi Mi A1 (Android 9)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Mi A1 (Android 9)</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:20</date>
+  <millis>1565724440193</millis>
+  <sequence>4478</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2812</thread>
+  <message>deviceModel = Mi A1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Mi A1</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:20</date>
+  <millis>1565724440193</millis>
+  <sequence>4479</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2812</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:20</date>
+  <millis>1565724440193</millis>
+  <sequence>4480</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2812</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:20</date>
+  <millis>1565724440193</millis>
+  <sequence>4481</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2812</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:41</date>
+  <millis>1565724461625</millis>
+  <sequence>4487</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2825</thread>
+  <message>deviceId = 2919064c0504</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">2919064c0504</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:41</date>
+  <millis>1565724461625</millis>
+  <sequence>4488</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2825</thread>
+  <message>deviceName = Xiaomi Mi A1 (Android 9)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Mi A1 (Android 9)</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:41</date>
+  <millis>1565724461625</millis>
+  <sequence>4489</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2825</thread>
+  <message>deviceModel = Mi A1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Mi A1</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:41</date>
+  <millis>1565724461625</millis>
+  <sequence>4490</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2825</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:41</date>
+  <millis>1565724461625</millis>
+  <sequence>4491</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2825</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:57:41</date>
+  <millis>1565724461625</millis>
+  <sequence>4492</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2825</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:07</date>
+  <millis>1565724487048</millis>
+  <sequence>4498</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2838</thread>
+  <message>deviceId = 2919064c0504</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">2919064c0504</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:07</date>
+  <millis>1565724487054</millis>
+  <sequence>4499</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2838</thread>
+  <message>deviceName = Xiaomi Mi A1 (Android 9)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Mi A1 (Android 9)</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:07</date>
+  <millis>1565724487054</millis>
+  <sequence>4500</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2838</thread>
+  <message>deviceModel = Mi A1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Mi A1</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:07</date>
+  <millis>1565724487054</millis>
+  <sequence>4501</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2838</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:07</date>
+  <millis>1565724487054</millis>
+  <sequence>4502</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2838</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:07</date>
+  <millis>1565724487055</millis>
+  <sequence>4503</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2838</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:23</date>
+  <millis>1565724503278</millis>
+  <sequence>4509</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2853</thread>
+  <message>deviceId = 2919064c0504</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">2919064c0504</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:23</date>
+  <millis>1565724503278</millis>
+  <sequence>4510</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2853</thread>
+  <message>deviceName = Xiaomi Mi A1 (Android 9)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Mi A1 (Android 9)</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:23</date>
+  <millis>1565724503278</millis>
+  <sequence>4511</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2853</thread>
+  <message>deviceModel = Mi A1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Mi A1</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:23</date>
+  <millis>1565724503278</millis>
+  <sequence>4512</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2853</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:23</date>
+  <millis>1565724503278</millis>
+  <sequence>4513</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2853</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T00:58:23</date>
+  <millis>1565724503278</millis>
+  <sequence>4514</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2853</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-08-14T01:30:39</date>
+  <millis>1565726439489</millis>
+  <sequence>5333</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3244</thread>
+  <message>deviceId = 2919064c0504</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">2919064c0504</property>
+</record>
+<record>
+  <date>2019-08-14T01:30:39</date>
+  <millis>1565726439495</millis>
+  <sequence>5334</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3244</thread>
+  <message>deviceName = Xiaomi Mi A1 (Android 9)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Mi A1 (Android 9)</property>
+</record>
+<record>
+  <date>2019-08-14T01:30:39</date>
+  <millis>1565726439495</millis>
+  <sequence>5335</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3244</thread>
+  <message>deviceModel = Mi A1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Mi A1</property>
+</record>
+<record>
+  <date>2019-08-14T01:30:39</date>
+  <millis>1565726439495</millis>
+  <sequence>5336</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3244</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T01:30:39</date>
+  <millis>1565726439495</millis>
+  <sequence>5337</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3244</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T01:30:39</date>
+  <millis>1565726439495</millis>
+  <sequence>5338</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3244</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-08-14T01:31:26</date>
+  <millis>1565726486518</millis>
+  <sequence>5345</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3261</thread>
+  <message>appiumVersion = 1.14.0</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.14.0</property>
+</record>
+<record>
+  <date>2019-08-14T01:31:26</date>
+  <millis>1565726486518</millis>
+  <sequence>5346</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3261</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.14.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.14.0\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-08-14T01:31:26</date>
+  <millis>1565726486527</millis>
+  <sequence>5347</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3261</thread>
+  <message>deviceId = 2919064c0504</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">2919064c0504</property>
+</record>
+<record>
+  <date>2019-08-14T01:31:26</date>
+  <millis>1565726486527</millis>
+  <sequence>5348</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3261</thread>
+  <message>deviceName = Xiaomi Mi A1 (Android 9)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Mi A1 (Android 9)</property>
+</record>
+<record>
+  <date>2019-08-14T01:31:26</date>
+  <millis>1565726486527</millis>
+  <sequence>5349</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3261</thread>
+  <message>deviceModel = Mi A1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Mi A1</property>
+</record>
+<record>
+  <date>2019-08-14T01:31:26</date>
+  <millis>1565726486527</millis>
+  <sequence>5350</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3261</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-08-14T01:31:26</date>
+  <millis>1565726486527</millis>
+  <sequence>5351</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3261</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-08-14T01:31:26</date>
+  <millis>1565726486527</millis>
+  <sequence>5352</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>3261</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+</log>
