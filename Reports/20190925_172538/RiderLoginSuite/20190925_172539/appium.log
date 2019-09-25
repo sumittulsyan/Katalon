@@ -1,0 +1,638 @@
+[35m[Appium][39m Welcome to Appium v1.14.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 51015
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 51018
+[35m[Appium][39m   tmpDir: /var/folders/38/x4crs4qx0hn0r3_szny2t9sw0000gn/T//Katalon/Appium/Temp1569412551370
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:51015
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/sumittulsyan/Downloads/app-release (1).apk","noReset":false,"deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":51014},"capabilities":{"firstMatch":[{"appium:app":"/Users/sumittulsyan/Downloads/app-release (1).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":51014,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.14.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   app: /Users/sumittulsyan/Downloads/app-release (1).apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: emulator-5554 (Android SDK built for x86 - Android 9)
+[35m[Appium][39m   fullReset: true
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   platformVersion: 9
+[35m[Appium][39m   systemPort: 51014
+[35m[Appium][39m   udid: emulator-5554
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 178eda84-9093-441a-a6eb-e06334b396bd
+[35m[BaseDriver][39m Using local app '/Users/sumittulsyan/Downloads/app-release (1).apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/sumittulsyan/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/sumittulsyan/.katalon/tools/android_sdk/build-tools/29.0.1
+[35m[ADB][39m Using 'adb' from '/Users/sumittulsyan/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/sumittulsyan/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Using 'apkanalyzer' from '/Users/sumittulsyan/.katalon/tools/android_sdk/tools/bin/apkanalyzer'
+[35m[ADB][39m Using the alternative activity name detection method because of: Command '/Users/sumittulsyan/.katalon/tools/android_sdk/tools/bin/apkanalyzer -h manifest print '/Users/sumittulsyan/Downloads/app-release (1).apk'' exited with code 2
+[35m[ADB][39m Using 'aapt' from '/Users/sumittulsyan/.katalon/tools/android_sdk/build-tools/29.0.1/aapt'
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'io.nativebase.market.geekyants.taxiapprider'
+[35m[ADB][39m Main activity name: 'io.nativebase.market.geekyants.taxiapprider.MainActivity'
+[35m[ADB][39m Using 'apksigner' from '/Users/sumittulsyan/.katalon/tools/android_sdk/build-tools/29.0.1/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m io.nativebase.market.geekyants.taxiapprider was successfully uninstalled
+[35m[ADB][39m The application at '/Users/sumittulsyan/Downloads/app-release (1).apk' is already cached to '/data/local/tmp/appium_cache/319121ffd2a4e89e1742e996fe8df850b3a56b9f.apk'
+[35m[ADB][39m The installation of 'app-release (1).apk' took 13.427s
+[35m[UiAutomator2][39m Starting UIAutomator2 server 3.7.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/Users/sumittulsyan/Downloads/appium-mobile-test/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.7.0.apk' and test from '/Users/sumittulsyan/Downloads/appium-mobile-test/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'io.nativebase.market.geekyants.taxiapprider/io.nativebase.market.geekyants.taxiapprider.MainActivity'. Starting it ourselves
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 178eda84-9093-441a-a6eb-e06334b396bd added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m37867 ms - 1271[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd [39m[32m200[39m [90m61 ms - 1203[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd [39m[32m200[39m [90m48 ms - 1203[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect [39m[32m200[39m [90m26 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Sign In\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Sign In\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m583 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Sign In\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m715 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Sign In\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m601 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Sign In\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m1501 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/7eb15783-8898-4ce3-9b5d-72f089da13af/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (178eda84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 4e574377-b9be-4292-8440-549c4247ac7a with 178eda84-9093-441a-a6eb-e06334b396bd
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/7eb15783-8898-4ce3-9b5d-72f089da13af/location [39m[32m200[39m [90m42 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"7eb15783-8898-4ce3-9b5d-72f089da13af"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 7eb15783-8898-4ce3-9b5d-72f089da13af
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/touch/perform [39m[32m200[39m [90m1067 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect [39m[32m200[39m [90m42 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Email\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m138 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/ebba7d2b-3bb0-40d0-8804-e5ed1218633f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (178eda84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 4e574377-b9be-4292-8440-549c4247ac7a with 178eda84-9093-441a-a6eb-e06334b396bd
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/ebba7d2b-3bb0-40d0-8804-e5ed1218633f/location [39m[32m200[39m [90m79 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/ebba7d2b-3bb0-40d0-8804-e5ed1218633f/clear[39m
+[35m[HTTP][39m [90m{"id":"ebba7d2b-3bb0-40d0-8804-e5ed1218633f"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/ebba7d2b-3bb0-40d0-8804-e5ed1218633f/clear [39m[32m200[39m [90m69 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/ebba7d2b-3bb0-40d0-8804-e5ed1218633f/value[39m
+[35m[HTTP][39m [90m{"id":"ebba7d2b-3bb0-40d0-8804-e5ed1218633f","text":"taxirider@gmail.com","value":["t","a","x","i","r","i","d","e","r","@","g","m","a","i","l",".","c","o","m"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/ebba7d2b-3bb0-40d0-8804-e5ed1218633f/value [39m[32m200[39m [90m1469 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect [39m[32m200[39m [90m133 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Password\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m540 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/e3d7daa4-5c2b-4535-be98-0803bd4ac06d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (178eda84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 4e574377-b9be-4292-8440-549c4247ac7a with 178eda84-9093-441a-a6eb-e06334b396bd
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/e3d7daa4-5c2b-4535-be98-0803bd4ac06d/location [39m[32m200[39m [90m209 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/e3d7daa4-5c2b-4535-be98-0803bd4ac06d/clear[39m
+[35m[HTTP][39m [90m{"id":"e3d7daa4-5c2b-4535-be98-0803bd4ac06d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/e3d7daa4-5c2b-4535-be98-0803bd4ac06d/clear [39m[32m200[39m [90m185 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/e3d7daa4-5c2b-4535-be98-0803bd4ac06d/value[39m
+[35m[HTTP][39m [90m{"id":"e3d7daa4-5c2b-4535-be98-0803bd4ac06d","text":"123456","value":["1","2","3","4","5","6"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/e3d7daa4-5c2b-4535-be98-0803bd4ac06d/value [39m[32m200[39m [90m1133 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect [39m[32m200[39m [90m79 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[7]/android.widget.TextView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m524 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/7e6d3a68-6a95-4228-a4a9-c358f2764f54/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (178eda84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 4e574377-b9be-4292-8440-549c4247ac7a with 178eda84-9093-441a-a6eb-e06334b396bd
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/element/7e6d3a68-6a95-4228-a4a9-c358f2764f54/location [39m[32m200[39m [90m22 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"7e6d3a68-6a95-4228-a4a9-c358f2764f54"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 7e6d3a68-6a95-4228-a4a9-c358f2764f54
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/touch/perform [39m[32m200[39m [90m60 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m1024 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m151 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m126 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m211 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m124 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m183 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m662 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m544 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m261 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m249 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m362 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m138 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m201 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m3389 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m602 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m632 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m621 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m600 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m608 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m623 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m859 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m583 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m632 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m586 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m583 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m590 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m623 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m131 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m593 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m595 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m589 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m160 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m651 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m247 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m624 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m109 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m595 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m636 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m140 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m346 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m157 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m133 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m271 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m135 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m282 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m120 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m172 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m268 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m844 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m369 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m369 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m247 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m171 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m133 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m111 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m591 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m576 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m575 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Bannerghatta Main Road, BTM Layout, 2nd Stage, 2nd Main Road, No 18, First Floor, Bengaluru, Karnataka 560076, India\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/elements [39m[32m200[39m [90m590 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/contexts [39m[32m200[39m [90m77 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/screenshot [39m[32m200[39m [90m1276 ms - 1039548[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/contexts [39m[32m200[39m [90m56 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/screenshot [39m[32m200[39m [90m785 ms - 1039548[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 178eda84-9093-441a-a6eb-e06334b396bd from our master session list
+[35m[ADB][39m io.nativebase.market.geekyants.taxiapprider was successfully uninstalled
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/178eda84-9093-441a-a6eb-e06334b396bd [39m[32m200[39m [90m4060 ms - 14[39m
+[35m[HTTP][39m [90m[39m

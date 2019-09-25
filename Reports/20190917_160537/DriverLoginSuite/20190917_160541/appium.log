@@ -1,0 +1,49 @@
+[35m[Appium][39m Welcome to Appium v1.14.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 65303
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 65309
+[35m[Appium][39m   tmpDir: /var/folders/38/x4crs4qx0hn0r3_szny2t9sw0000gn/T//Katalon/Appium/Temp1568716552165
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:65303
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m11 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/sumittulsyan/Downloads/app-release.apk","noReset":false,"deviceName":"emulator-5556 (Android SDK built for x86 - Android 9)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5556","systemPort":65302},"capabilities":{"firstMatch":[{"appium:app":"/Users/sumittulsyan/Downloads/app-release.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5556 (Android SDK built for x86 - Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":65302,"appium:udid":"emulator-5556"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.14.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   app: /Users/sumittulsyan/Downloads/app-release.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: emulator-5556 (Android SDK built for x86 - Android 9)
+[35m[Appium][39m   fullReset: true
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   platformVersion: 9
+[35m[Appium][39m   systemPort: 65302
+[35m[Appium][39m   udid: emulator-5556
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 1e99cbf3-4c46-4216-8855-a3d4a9371939
+[35m[BaseDriver][39m Using local app '/Users/sumittulsyan/Downloads/app-release.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/sumittulsyan/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/sumittulsyan/.katalon/tools/android_sdk/build-tools/29.0.1
+[35m[ADB][39m Using 'adb' from '/Users/sumittulsyan/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5556
+[35m[ADB][39m Using 'adb' from '/Users/sumittulsyan/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Using 'apkanalyzer' from '/Users/sumittulsyan/.katalon/tools/android_sdk/tools/bin/apkanalyzer'
+[35m[ADB][39m Package name: 'io.nativebase.market.geekyants.taxiappdriver'
+[35m[ADB][39m Main activity name: 'io.nativebase.market.geekyants.taxiappdriver.MainActivity'
+[35m[ADB][39m Using 'aapt' from '/Users/sumittulsyan/.katalon/tools/android_sdk/build-tools/29.0.1/aapt'
+[35m[AndroidDriver][39m Failed to launch Appium Settings app: Condition unmet after 6073 ms. Timing out.
+[35m[ADB][39m io.nativebase.market.geekyants.taxiappdriver was not uninstalled, because it was not present on the device
+[35m[UiAutomator2][39m Unable to remove port forward 'Error executing adbExec. Original error: 'Command '/Users/sumittulsyan/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5556 forward --remove tcp\:65302' exited with code 1'; Stderr: 'adb: error: listener 'tcp:65302' not found'; Code: '1''
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m20086 ms - 705[39m
+[35m[HTTP][39m [90m[39m

@@ -17,7 +17,7 @@ Mobile.startApplication('/Users/sumittulsyan/Downloads/app-release.apk', true)
 
 Mobile.tap(findTestObject('driverSignIn/android.widget.TextView0 - Sign In'), 0)
 
-Mobile.setText(findTestObject('driverSignIn/android.widget.EditText0 - Email'), 'taxidriver1@gmail.com', 30)
+Mobile.setText(findTestObject('driverSignIn/android.widget.EditText0 - Email'), 'taxidriver@gmail.com', 30)
 
 Mobile.setText(findTestObject('driverSignIn/android.widget.EditText0 - Password'), '123456', 30)
 
